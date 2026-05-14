@@ -93,6 +93,7 @@
   background-color: #fafafa;
   padding: 46px 40px 0;
   overflow-y: scroll;
+
 }
 
 .messages::-webkit-scrollbar{
@@ -102,7 +103,8 @@
 .upper-message{
   display: flex;
   justify-content: left;
-  line-height: 0;
+    align-items: baseline;
+  /* line-height: 0; */
 }
 
 .message-user{
@@ -120,7 +122,7 @@
 .message-content{
   color: #434a54;
   font-size: 14px;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
 
 .form{
